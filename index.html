@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+    
+        .card{
+            background-color:hotpink;
+        }
+        .heart{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100hv;
+            font-size: 10rem;
+            animation: heart 0.5s infinite alternate linear;
+        }
+
+        @keyframes heart {
+            from {
+                transform: scale(0.7);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+
+        .i{
+            font-size: 150px;
+            font-weight: bolder;
+            font-style: oblique;
+            border: 1px whitesmoke;
+            margin: 0px 0px;
+            margin-left: 400px;
+            margin-top: -50px;
+            margin-bottom: -50px;
+            text-shadow: 5px 5px 6px;
+        }
+        .u{
+            font-size: 150px;
+            font-weight: bolder;
+            font-style: oblique;
+            margin-left: 900px;
+            margin-top: -50px;
+            margin-bottom: -50px;
+            text-shadow: 5px 4px 5px;
+            
+        }
+        .dudu{
+            font-size: 150px;
+            font-weight: bolder;
+            font-style: oblique;
+            text-align: center;
+            text-decoration: underline;
+            text-shadow: 5px 5px 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="i">I</div>
+        <div class="heart">❤️</div>
+        <div class="u">You</div>
+        <div class="dudu">DUDU</div>
+    </div>
+</body>
+</html>
